@@ -5,7 +5,21 @@ from tkinter import ttk
 raam = Tk()
 raam.title("Geneetika")
 
-silt=ttk.Label(raam, text=("Mendeli seadused on organismide tunnuste pärandumise seadused geneetikas.\n Mendeli seadused avastas 1860. aastatel loodusseadustest huvituv augustiini munk Gregor Mendel,\n kes tegi ristamiskatseid hernetaimedega,\nning sõnastas need 1865. aastal Brunni (praegu Brno) Looduslooseltsi toimetistes ilmunud artiklis.\nMendeli seadused:\n1.Ristates kahte homosügootset (AABB, aabb) isendit on esimese põlvkonna järglased geneetiliselt identsed.\n2.Ristates erinevaid heterosügoote(AaBB, AaBb),\ntekib järglaspõlvkonnas tunnuse avaldumisel genotüübiline ja fenotüübiline lahknemine.\nKaks tunnust (geeni) päranduvad üksteisest sõltumatult.\nMeie toome näitena herned, kuna need olid algsed katsetaimed. \nProgrammiga on võimalik lahendada dihübriidset dominatsuse (a=herne värv ja b=tekstuur)\nja monohübriidset kodominatsuse ülesannet(a=õie värv)\nProgrammi peab sisestama mõlema vanema geeni lookused.\n Ühes lookuses on 2 alleeli (aa). Kirjutage enda valikul kas suured või väikesed 2 a-d ja 2 b-d \nvõi kodominatsuse lahendamiseks ainult a-d.\n Seejärel programm väljastab järglaste feno- ja genotüübid.\n"))    
+silt=ttk.Label(raam, text=("Mendeli seadused on organismide tunnuste pärandumise seadused geneetikas.\n" 
+                           "Mendeli seadused avastas 1860. aastatel loodusseadustest huvituv augustiini munk Gregor Mendel,\n"
+                            "kes tegi ristamiskatseid hernetaimedega,\n"
+                            "ning sõnastas need 1865. aastal Brunni (praegu Brno) Looduslooseltsi toimetistes ilmunud artiklis.\n"
+                            "Mendeli seadused:\n"
+                            "1.Ristates kahte homosügootset (AABB, aabb) isendit on esimese põlvkonna järglased geneetiliselt identsed.\n"
+                            "2.Ristates erinevaid heterosügoote(AaBB, AaBb),\n"
+                            "tekib järglaspõlvkonnas tunnuse avaldumisel genotüübiline ja fenotüübiline lahknemine.\n"
+                            "Kaks tunnust (geeni) päranduvad üksteisest sõltumatult.\n"
+                            "Meie toome näitena herned, kuna need olid algsed katsetaimed. \n"
+                            "Programmiga on võimalik lahendada dihübriidset dominatsuse (a=herne värv ja b=tekstuur)\n ja monohübriidset kodominatsuse ülesannet(a=õie värv)\n"
+                            "Programmi peab sisestama mõlema vanema geeni lookused.\n"
+                            "Ühes lookuses on 2 alleeli (aa). Kirjutage enda valikul kas suured või väikesed 2 a-d ja 2 b-d \n"
+                            "või kodominatsuse lahendamiseks ainult a-d.\n"
+                            "Seejärel programm väljastab järglaste feno- ja genotüübid.\n"))    
 silt.grid(row=0, column=0, rowspan=8, columnspan=12, sticky=W+E+N+S)
       
 silt = ttk.Label(raam, text="Ema genotüüp: ")
